@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>網站維護中 | NZ</title>
+  <style>
+    body {
+      background-color: #0f172a;
+      color: #f8fafc;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      padding: 10vh 2rem;
+    }
+    h1 {
+      font-size: 3rem;
+      color: #38bdf8;
+    }
+    p {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+    }
+    .spinner {
+      margin: 2rem auto;
+      border: 8px solid #1e293b;
+      border-top: 8px solid #38bdf8;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 1.5rem;
+      color: #94a3b8;
+    }
+    footer a {
+      color: #f8fafc;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚧 網站維護中 🚧</h1>
+  <div class="spinner"></div>
+  <p>正在進行系統更新與優化，請稍後再試。</p> 
+  <footer>
+    <a href="https://github.com/su-nz" target="_blank">NZ GitHub</a>
+  </footer>
+</body>
+</html>
